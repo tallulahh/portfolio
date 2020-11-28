@@ -34,8 +34,8 @@ class Particle{
   draw() {
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-    ctx.shadowBlur = 10;
-    ctx.shadowColor = '#f736ce';
+//     ctx.shadowBlur = 10;
+//     ctx.shadowColor = '#f736ce';
     ctx.fillStyle = '#f736ce';
     ctx.fill();
   }
@@ -86,8 +86,8 @@ class Particle2{
   draw() {
     ctx3.beginPath();
     ctx3.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-    ctx3.shadowBlur = 10;
-    ctx3.shadowColor = '#f736ce';
+//     ctx3.shadowBlur = 10;
+//     ctx3.shadowColor = '#f736ce';
     ctx3.fillStyle = '#f736ce';
     ctx3.fill();
   }
