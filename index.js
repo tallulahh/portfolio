@@ -345,24 +345,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
   email.addEventListener("mouseout", lineReverse);
   contactArrow.addEventListener("click", contactScroll);
 });
-
-//Navbar changes based on scroll position
-// window.addEventListener("scroll", () => {
-//   var scrollable = document.documentElement.scrollHeight - window.innerHeight;
-//   var scrolled = window.scrollY;
-//
-//
-
-// if (Math.ceil(scrolled) >= 700 && Math.ceil(scrolled) < 1470) {
-//   aboutAnimation.play();
-//   $tabs.find('.active').removeClass('active');
-//   $('#aboutli').addClass("active");
-// } else if (Math.ceil(scrolled) >= 1470 && Math.ceil(scrolled) < 2230) {
-//   $tabs.find('.active').removeClass('active');
-//   $('#portfolioli').addClass("active");
-// } else if (Math.ceil(scrolled) >= 2230) {
-//   $tabs.find('.active').removeClass('active');
-//   $('#contactli').addClass("active");
-// }
-
-// });
