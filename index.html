@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tallulah Carlisle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <div class="cursor">
+    <i class="fas fa-chevron-down cursorWork"></i>
+    <i class="far fa-eye cursorProject"></i>
+    <!-- <i class="fas fa-angle-right "></i> -->
+  </div>
+  <!-- About Section -->
+
+  <div class="about panel" id="about">
+    <nav>
+      <ul class="tabs">
+        <li><a href="#about" class="active navlink hoverable" id="aboutli">about</a></li>
+        <li><a href="#portfolio" class="navlink hoverable" id="portfolioli">portfolio</a></li>
+        <li><a href="#contact" class="navlink hoverable" id="contactli">contact</a></li>
+      </ul>
+    </nav>
+    <div class="about-para">
+      <p class="para-bold">Hi, my name is Tallulah.<br> I am a full-stack developer living in Spain, looking for new projects in 2020.</p>
+
+      <p> From an artistic background, I like clean and simple design and playing with smooth animation.</p>
+
+      <p> Get to know my <span class="hoverable" id="work">work.</span>
+      </p>
+
+    </div>
+    <div class="canvasBox">
+      <canvas id="canvas"></canvas>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+
+  <div class="portfolio panel" id="portfolio">
+
+    <div class="portfolio-left" id="portfolio-left">
+      <div class="text">
+        <h4 id="project-title">Sailing Barcelona</h4>
+      </div>
+      <img id="portfolioImage" src="" autoplay></video>
+    </div>
+
+    <div class="projects">
+      <div class="circle hoverable" id="circle1">
+
+      </div>
+      <div class="circle hoverable" id="circle2">
+
+      </div>
+      <div class="circle hoverable" id="circle3">
+
+      </div>
+
+    </div>
+    <div class="toContact hoverable">
+      <span id="toContact"><i class="fas fa-chevron-down"></i></span>
+
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+
+  <div class="contact panel" id="contact">
+
+    <div class="contact-box">
+      <div class="contact-left">
+        <p><span id="contact-big">Interested in working on a project together? Or just fancy a chat..</span></p>
+        <p>I'd love to get to know you so please don't hesitate and drop me a email..</p>
+        <div class="email" onclick="location.href='mailto:tallulah.carlisle@gmail.com';">
+          <p>tallulah.carlisle@gmail.com</p>
+          <div class="line">
+
+          </div>
+        </div>
+      </div>
+      <div class="contact-right">
+        <img src="https://s2.favim.com/orig/151107/blah-blah-blah-comic-book-nail-art-phone-Favim.com-3533390.jpg" style="width: 500px; height: 500px;" alt="">
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/TextPlugin.min.js" charset="utf-8"></script>
+  <script src="canvas1.js" charset="utf-8" defer></script>
+  <!-- <script src="canvas.js" charset="utf-8"></script> -->
+  <script src="index.js" charset="utf-8" defer></script>
+</body>
+<footer>
+  <a class="hoverable" href="mailto:tallulah.carlisle@gmail.com?subject=Getting%20in%20Contact"><i class="fas fa-at"></i></a>
+  <a class="hoverable" href="https://github.com/tallulahh" target="_blank"><i class="fas fa-code-branch"></i></a>
+  <a class="hoverable" href="https://www.linkedin.com/in/tallulah-carlisle" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+</footer>
+
+
+</html>
