@@ -261,11 +261,10 @@ canvas {
   background-size: cover;
   overflow: hidden;
   background-position: center;
-  z-index: 2000;
 }
 
 #portfolio-left {
-  z-index: 2000;
+  z-index: 0;
   position: relative;
 }
 
