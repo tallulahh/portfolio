@@ -91,6 +91,7 @@ function animate(){
 }
 
 window.addEventListener('resize', onWindowResize);
+window.addEventListener('scroll', onWindowResize);
 
 init();
 animate();
