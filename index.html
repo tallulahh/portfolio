@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- This comment needed -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Hello, my name is Tallulah! I am a Full Stack Website Developer and freelancer living in Spain, looking for new projects in 2021. From an artistic background, I like clean and simple design and playing with smooth animation. I love the design and deployment of new, responsive, elegant websites. Get to know my work and portfolio and don't hesitate to get in touch.">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tallulah Carlisle | Website Full Stack Developer | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+
+<body>
+  <div class="loading">
+  </div>
+  <div class="cursor">
+    <i class="fas fa-chevron-down cursorWork"></i>
+    <i class="far fa-eye cursorProject"></i>
+  </div>
+  <!-- About Section -->
+
+  <div class="about panel" id="about">
+    <nav>
+      <ul class="tabs">
+        <li><a href="#about" class="active navlink hoverable" id="aboutli">about</a></li>
+        <li><a href="#portfolio" class="navlink hoverable" id="portfolioli">portfolio</a></li>
+        <li><a href="#contact" class="navlink hoverable" id="contactli">contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger-menu hoverable">
+      <span class="bar"></span>
+    </div>
+    <ul class="hamburger-list">
+      <li><a href="#about" class="hamburger-link hoverable">About</a></li>
+      <li><a href="#portfolio" class="hamburger-link hoverable">Portfolio</a></li>
+      <li><a href="#contact" class="hamburger-link hoverable">Contact</a></li>
+    </ul>
+    <div class="about-para">
+      <p class="para-bold">Hi, my name is Tallulah.<br> I am a full-stack website developer, looking for new projects in 2021.</p>
+      <p> From an artistic background, I like clean and simple design and playing with smooth animation.</p>
+      <p> Get to know my <span class="hoverable" id="work">work.</span></p>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+  </div>
+
+  <!-- Portfolio Section -->
+
+  <div class="portfolio panel" id="portfolio">
+    <div class="portfolio-left" id="portfolio-left">
+      <div class="text">
+        <h4 id="project-title">Sailing Barcelona</h4>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="circle hoverable" id="circle1"></div>
+      <div class="circle hoverable" id="circle2"></div>
+      <div class="circle hoverable" id="circle3"></div>
+      <div class="circle hoverable" id="circle4"></div>
+    </div>
+    <div class="toContact hoverable">
+      <span id="toContact"><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+
+  <div class="contact panel" id="contact">
+    <div class="contact-box">
+      <div class="contact-banner">
+        <h2>Interested in working on a project together?</h2>
+        <p>I'd love to get to know you so please don't hesitate to get in touch..</p>
+      </div>
+      <div class="contact-boxes">
+        <div class="contact-littleBox">
+          <i class="fas fa-at hoverable" onclick="location.href='mailto:tallulah.carlisle@gmail.com';"></i>
+          <p>Drop me a line.. </p>
+        </div>
+        <div class="contact-littleBox">
+          <a href="tel:+34619824491"><i class="fas fa-phone hoverable"></i></a>
+          <p>Give me a call..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <a class="hoverable" href="mailto:tallulah.carlisle@gmail.com?subject=Getting%20in%20Contact"><i class="fas fa-at"></i></a>
+    <a class="hoverable" href="https://github.com/tallulahh" target="_blank"><i class="fas fa-code-branch"></i></a>
+    <a class="hoverable" href="https://www.linkedin.com/in/tallulah-carlisle" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" charset="utf-8"></script>
+  <script src="https://cdn.rawgit.com/josephg/noisejs/master/perlin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.js"></script>
+  <script src="https://82mou.github.io/threejs/js/OrbitControls.js"></script>
+  <script src="three.js" charset="utf-8" defer></script>
+  <script src="index.js" charset="utf-8" defer></script>
+</body>
+
+</html>
