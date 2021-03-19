@@ -215,7 +215,8 @@ window.addEventListener("load", function(event) {
     });
     var text = gsap.timeline({});
     text.fromTo('.portfolio-left', {
-      clipPath: "circle(0%)"
+      clipPath: "circle(0%)",
+      opacity: 0
     }, {
       x: 0,
       opacity: 0.6,
