@@ -64,11 +64,16 @@ function onWindowResize(){
     sphere.position.set(3,0,0);
     camera.position.z = 5;
   }
-  canvas.width = innerWidth;
-  canvas.height = innerHeight;
-  camera.aspect = window.innerWidth / window.innerHeight;
-  camera.updateProjectionMatrix();
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  if (innerHeight != innerHeight){
+    console.log("dont resize");
+  } else {
+    canvas.width = innerWidth;
+    canvas.height = innerHeight;
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  }
+
 }
 
 function update(){
