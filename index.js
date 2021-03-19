@@ -216,9 +216,11 @@ window.addEventListener("load", function(event) {
     var text = gsap.timeline({});
     text.fromTo('.portfolio-left', {
       clipPath: "circle(0%)",
-      opacity: 0
+      opacity: 0,
+      zIndex: 0
     }, {
       x: 0,
+      zIndex: 2000,
       opacity: 0.6,
       duration: 1,
       clipPath: "circle(100%)"
@@ -238,10 +240,12 @@ window.addEventListener("load", function(event) {
     var text = gsap.timeline({});
     text.fromTo('.portfolio-left', {
       opacity: 1,
+      zIndex: 2000,
       transformOrigin: "100% 0%",
       clipPath: "circle(100%)"
     }, {
       opacity: 0,
+      zIndex: 0,
       duration: 0.5,
       clipPath: "circle(0%)"
     });
