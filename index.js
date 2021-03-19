@@ -1,5 +1,5 @@
-window.addEventListener("load", function(event) {
   $(this).scrollTop(0);
+window.addEventListener("load", function(event) {
   $(".loading").css("display", "none");
 
   //GLOBAL VARIABLES
