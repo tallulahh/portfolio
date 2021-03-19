@@ -53,6 +53,7 @@ const plane = new THREE.Mesh( planeGeometry, planeMaterial );
   } else {
     sphere.position.set(3,0,0);
     camera.position.z = 5;
+    window.addEventListener("resize", onWindowResize);
   }
   scene.add(sphere);
 }
@@ -96,7 +97,7 @@ function animate(){
   renderer.render(scene, camera);
 }
 
-window.addEventListener("resize", onWindowResize);
+
 init();
 animate();
-onWindowResize();
+
