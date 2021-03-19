@@ -226,7 +226,7 @@ window.addEventListener("load", function(event) {
       duration: 1
     });
     var text = gsap.timeline({});
-    text.fromTo('.portfolio-left', {
+    text.fromTo('#portfolio-left', {
       clipPath: "circle(0%)",
       opacity: 0,
       zIndex: 0
@@ -239,7 +239,8 @@ window.addEventListener("load", function(event) {
 
     });
     text.to('.circle', {
-      opacity: 0.2
+      opacity: 0.2,
+      zIndex: 2800
     }, "-=0.9");
     // balls.play();
   }
@@ -250,7 +251,7 @@ window.addEventListener("load", function(event) {
       duration: 1
     });
     var text = gsap.timeline({});
-    text.fromTo('.portfolio-left', {
+    text.fromTo('#portfolio-left', {
       opacity: 1,
       zIndex: 2000,
       transformOrigin: "100% 0%",
@@ -262,7 +263,8 @@ window.addEventListener("load", function(event) {
       clipPath: "circle(0%)"
     });
     text.to('.circle', {
-      opacity: 1
+      opacity: 1,
+      zIndex: 2800
     }, "-=0.5");
   }
 
@@ -335,7 +337,7 @@ window.addEventListener("load", function(event) {
   });
 
   //Select from hamburger menu
-  $("a.hamburger-link").on('click', function(e) {
+  $("li a.hamburger-link").on('click', function(e) {
     burgerList.style.visibility = "hidden";
     burgerMenu.classList.toggle("open");
 
