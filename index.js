@@ -84,7 +84,7 @@ window.addEventListener("load", function(event) {
       opacity: 0,
       x: 100
     }, {
-      opacity: 0.6,
+      opacity: 1,
       x: 0,
       zIndex: 100,
       duration: 1
