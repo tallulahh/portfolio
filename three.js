@@ -97,7 +97,7 @@ function animate(){
 }
 
 if ($("body").hasClass("mobile")){
-      return;
+      console.log("mobile");
     } else {
       window.addEventListener("resize", onWindowResize);
     }
