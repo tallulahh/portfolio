@@ -117,7 +117,7 @@ nav ul li {
   width: 4rem;
   top: 30px;
   left: 30px;
-  background-color: inherit;
+  background-color: transparent;
   cursor: none;
   display: none;
   align-items: center;
@@ -482,9 +482,6 @@ footer a {
 @media only screen and (max-width:480px) {
 
   /* smartphones, Android phones, landscape iPhone */
-  .cursor {
-    opacity: 0;
-  }
   .about {
     height: 100vh;
   }
