@@ -513,11 +513,11 @@ footer a {
 @media only screen and (max-width:480px) {
 
   /* smartphones, Android phones, landscape iPhone */
-  /* .cursor {
+  .cursorWork {
     opacity: 0;
-  } */
-  .about {
-    height: 100vh;
+  }
+  .about, .contact {
+    min-height: 100vh;
   }
 
   .para-bold {
@@ -548,7 +548,8 @@ footer a {
 
   .contact-box {
     width: 70% !important;
-    height: 60vh;
+    min-height: 60vh;
+    overflow: auto;
   }
 
   .portfolioImage {
